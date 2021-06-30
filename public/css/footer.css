@@ -1,0 +1,10 @@
+footer{background-color: white;display: block;width: 100%;height: max-content;margin: auto;padding-top: 10px;}
+footer div{text-align: center;width: 80%;margin-left: 10%;margin-top: 10%;color: #666;}
+.f4{text-align: left;margin-left: 0px;width: 100%;}
+footer i{color: #1259c3;font-size:2em;margin-bottom: 10px;}
+footer i:hover{color: #0022AA;}
+
+@media(min-width:769px){
+    footer{display: flex;flex-wrap: wrap;}
+    footer div{width: 30%;margin: auto;}
+}

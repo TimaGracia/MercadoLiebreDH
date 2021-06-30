@@ -1,0 +1,8 @@
+.logu{width: 60%;margin-left: 20%;text-align: center;height: max-content;}
+.l input,.logu button{background-color: white;margin-top: 5%;width: 100%;margin-bottom: 5%;height: 10%;padding: 10px 20px 10px 20px;
+    text-align: left;border: white;border-radius: 3% 3% 3% 3%;}
+
+.logu button{text-align: center;border: #1259c3;background-color: #1259c3;color: white;} 
+.logu button:hover{background-color: #0022aa;}
+
+

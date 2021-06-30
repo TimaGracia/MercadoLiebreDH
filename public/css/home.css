@@ -1,0 +1,112 @@
+body {background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100vw;
+    
+}
+nav{background-color: cornsilk;border: darkslategrey solid 1px; width: 250px; text-align: center; color: #9c9c9c;}
+.burger-menu{background-color: blue;color: burlywood;
+     width: 25px;text-align: center;height: 5vh;}
+.pre{font-size: 18px;}
+main{font-size: 16px;}
+
+
+.principio{display: block;}
+.a{display: block;height: 10vh;}
+.c{display: flex;width: 100%;}
+
+
+.a1{width: 100%;height: 10vh;margin: auto;}
+.a2{width: 100%;display: flex;margin-top: 3vh;margin-left: 3vw;}
+.a21{width:80%;height: 5vh;margin-right: 1vw;}
+.a22{width:10%;height: 3vh;margin-top: 1vh;}
+.a22 i{width: 10%;height: 3vh;}
+.b{display: flex;height: 10vh;}
+.b1{height: 10vh;margin-top: 2vh;margin-left: 1vw;}
+.b2{height: 5vh;margin-top: 4vh;}
+
+.c1{display: flex;margin-left: 1vh;width: 50%;}
+.c2{display: flex;margin-right: 1vh;text-align: right;width: 50%;}
+.c p{margin-left: 2vh;}
+
+a{color: #000;text-decoration: none;}
+
+
+@media(max-width: 805px){
+    .principio{display: block;}
+    .a div{width: 50vw;}
+    .a21{width:40vw}
+}
+@media(min-width: 605px){
+    .co{display: none;}
+
+}
+@media(max-width: 605px){
+    .a{display: block;height: 20vh;}
+    .c{visibility: hidden;}
+    
+}
+
+.z{display: flex;height: 26vh;}
+.z div{width: 20vw;height: 26vh;}
+.z img{width: 20vw;height: 10vh;}
+
+.w{display: flex;height: 26vh;}
+.w div{width: 20vw;height: 26vh;}
+.w img{width: 20vw;height: 10vh;}
+.z div p{height:4vh;}
+.w div p{height:4vh;}
+
+
+
+footer{height: 10vh;margin-top: 10vh;}
+.burger-menu{position: absolute;left: 50%;}
+
+
+ul, ol {
+    list-style:none;
+}
+
+.co {
+    width:500px;
+    margin:0 auto;
+}
+
+.co > li {
+    float:left;
+}
+
+.co li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.co li a:hover {
+    background-color:#434343;
+}
+
+.co li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.co li:hover > ul {
+    display:block;
+}
+
+.co li ul li {
+    position:relative;
+}
+
+.co li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+

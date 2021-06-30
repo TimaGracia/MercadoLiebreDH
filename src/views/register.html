@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/cajitas.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300;
+     0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap "rel =" stylesheet ">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="principio">
+            <div class="a">
+                <div class="a1">
+                    <a href="http://localhost:2100/">
+                        <img src="/img/logo-mercado-liebre.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="a2">
+                    <nav class="a21">Buscar marcas,productos,etc</nav>
+                    <div class="a22">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="b">  
+                <div class="b2">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div> 
+                <div class="b1">
+                    <p class="b11">Comprá en cuotas y sin tarjeta de crédito</p>
+                </div>
+            </div>      
+        </div>
+        </div>
+        <div class="co">
+            <div class="burger-menu">
+                <a class="c1" href=""><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+        <div class="c">
+            <div class="c1">
+                <p><a href="">Ofertas</a></p>
+                <p><a href="">Tiendas Oficiales</a></p>
+                <p><a href="">Vender</a></p>
+                <p><a href="">Ayuda</a></p>        
+            </div>
+            <div class="c2">
+                <div>
+                    <p><a href="http://localhost:2100/register">Creá tu Cuenta</a></p>
+                    <i class="far fa-id-card"></i>
+                </div>
+                <div>
+                    <p><a href="http://localhost:2100/login">Ingresá</a></p>
+                    <i class="fas fa-sign-in-alt"></i>
+                </div>
+                <div>
+                    <p><a href="">Mi Canasto</a></p>
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Registrate</h2>
+        <div class="formu">
+            <form action="/registro" method="POST">
+            <div>
+                <div><label for="nombre"></label></div>
+                <div><input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido"></div>
+            </div>
+            <div action="usuario">
+                <div><label for=""></label></div>
+                <div><input type="text" name="usuario" id="usuario" placeholder="Usuario"></div>
+            </div>
+            <div>
+                <div><label for="email"></label></div>
+                <div><input type="email" name="email" id="email" placeholder="E-mail"></div>
+            </div>
+            <div>
+                <div class="t"><label for="fecha">Fecha de nacimiento</label></div>
+                <div><input type="date" name="fecha" id="fecha"></div>
+            </div>
+            <div><label for="domicilio"></label></div>
+            <div><input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"></div>
+            <div class="r">
+                <div>
+                    <label class="t" for="perfil">Perfil del Usuario</label>
+                </div>
+                <div>
+                    <input type="radio" name="perfil" id="perfil" placeholder="Comprador">
+                    <label for="">Comprador</label>
+                    <input type="radio" name="perfil" id="perfil" placeholder="Vendedor">
+                    <label for=""> Vendedor</label>
+                </div>
+            </div>
+            <div class="r">
+                <div>
+                    <label class="t" for="intereses">Intereses</label>
+                </div>
+                <div>    
+                    <input type="checkbox" name="Deporte" id="intereses" placeholder="Deporte">
+                    <label for="">Deporte</label>
+                </div>
+                <div>    
+                    <input type="checkbox" name="Moda" id="intereses" placeholder="Moda">
+                    <label for="">Moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Herramientas" id="intereses" placeholder="Herramientas">
+                    <label for="">Herramientas</label>
+                </div>
+                <div>    
+                    <input type="checkbox" name="Libros" id="intereses" placeholder="Libros">
+                    <label for="">Libros</label>
+                </div>
+                <div>    
+                    <input type="checkbox" name="Vehiculos" id="intereses" placeholder="Vehiculos">
+                    <label for="">Vehiculos</label>
+                </div>
+
+            </div>
+            <div>
+                <button type="submit">Crear Cuenta</button>
+            </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="f1">
+            <div>
+                <i class="fas fa-credit-card"></i>
+            </div>
+            <h3>Pagá con Tarjeta o en Efectivo</h3>
+            <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </div>
+        <div class="f2">    
+            <div>
+                <i class="fas fa-gift"></i>
+            </div>
+            <h3>Envío gratis desde $2.500</h3>
+            <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un Beneficio de MercadoPuntos</p>
+        </div>
+        <div class="f3">
+            <div>
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <h3>Seguridad de principio a fin</h3>
+            <p>¿No te gusta?¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@</p>
+        </div>
+        <div class="f4">
+            <h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+        </div>
+    </footer>
+</body>
+</html>
