@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path=require("path");
 
-app.listen(2100,()=>console.log("Server Start","http://localhost:2100"));
+app.listen(process.env.PORT || 3000, function(){ console.log("Server Start","http://localhost:2100")});
 
 app.use(express.static(path.join(__dirname,"./public")));
 
